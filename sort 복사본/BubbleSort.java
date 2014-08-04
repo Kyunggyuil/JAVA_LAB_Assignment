@@ -2,13 +2,18 @@ package sort;
 
 import java.util.ArrayList;
 
-public class QuickSort implements Isort{
+public class BubbleSort implements Isort{
+
 	ArrayList<Integer> member;
 	
-	public QuickSort(ArrayList<Integer> member){
+	public BubbleSort(ArrayList<Integer> member){
 		this.member=member;
 	}
+	
+	@Override
 	public void sort(ArrayList<Integer> member) {
-		System.out.println("QuickSort.");
+		System.out.println("Bubble Sort.");
+		
 	}
+
 }
